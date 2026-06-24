@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _book
+
+website:
+  title: "济州岛柑橘园数字孪生个性化农业潜力复现"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    number-sections: true
